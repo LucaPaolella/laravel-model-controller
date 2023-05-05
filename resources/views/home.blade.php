@@ -12,21 +12,6 @@
     <div class="container">
         <h1>Movies</h1>
     </div>
-
-    <div class="row">
-        @foreach($movies as $movie)
-        <div class="col-md-4">
-            <div class="card">
-
-                <div class="card-body">
-                    <h5 class="card-title">{{ $movie->title }}</h5>
-                </div>
-
-            </div>
-        </div>
-        @endforeach
-    </div>
-
 </body>
 
 </html>
